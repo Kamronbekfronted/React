@@ -11,7 +11,7 @@ function Login() {
       <div
         className={"px-20 py-5 flex justify-between bg-slate-200 items-center"}
       >
-        {/* <div className="flex">
+        <div className="flex">
           <h1 className="text-xl mr-14 text-indigo-700 font-bold items-center flex ">
             <AiOutlineShoppingCart className="text-blue-700 mr-1 text-4xl font-thin	" />
             UniStore
@@ -38,7 +38,7 @@ function Login() {
           <button className="text-xl text-blue-700 border-solid border-2 border-indigo-600 rounded w-20 h-9">
             Kirish
           </button>
-        </div> */}
+        </div>
       </div>
       <LoginItems />
     </div>
