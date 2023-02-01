@@ -9,7 +9,7 @@ function Login() {
   return (
     <div className="">
       <div
-        className={"px-20 py-5 flex justify-between bg-slate-200 items-center"}
+        className={"px-20 py-5 flex justify-between bg-slate-200 items-center sticky top-0"}
       >
         <div className="flex">
           <h1 className="text-xl mr-14 text-indigo-700 font-bold items-center flex ">
@@ -40,7 +40,7 @@ function Login() {
           </button>
         </div>
       </div>
-      <LoginItems />
+        <LoginItems />
     </div>
   );
 }
